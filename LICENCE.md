@@ -1,4 +1,4 @@
-Copyright <1022> <COPYRIGHT Foxmaster>
+Copyright 2022 COPYRIGHT Foxmaster @Clavister
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
