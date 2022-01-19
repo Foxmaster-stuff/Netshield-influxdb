@@ -26,8 +26,9 @@ make graphs in grafana.
 
 * This script uses crontab to execute the script
 * Step-by-step bullets
+Polls the network device every 5 min
 ```
-code blocks for commands
+*/5 * * * *     /usr/local/bin/Netshield/Influx_Netshield.sh > /dev/null 2>&1
 ```
 
 ## Help

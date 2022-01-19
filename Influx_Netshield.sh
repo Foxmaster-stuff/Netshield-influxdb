@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IPList=/usr/local/bin/NetshieldIP.txt    #TextFile containing IP's to poll
+IPList=/usr/local/bin/Netshield/NetshieldIP.txt    #TextFile containing IP's to poll
 
 #count rows in iplist
 rows=$(wc -l NetshieldIP.txt |awk '{print $1}')
