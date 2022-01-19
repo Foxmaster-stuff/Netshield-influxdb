@@ -21,7 +21,9 @@ make graphs in grafana.
 
 * The file NetshieldIP.txt is where the script reads IP,USER,SNMPv3-PW,USER-PW,
 * Example
-* 192.168.105.3,apa,apa123456789,dt12576!,
+```
+192.168.105.3,apa,apa123456789,dt12576!,
+```
 * Any modifications needed to be made to files/folders
 
 ### Executing program
