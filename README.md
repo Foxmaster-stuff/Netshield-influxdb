@@ -1,6 +1,6 @@
 # Project Title
 
-Graph SNMP v3 values from Clavister Netshield
+Graph SNMPv3 values from Clavister Netshield
 
 ## Description
 
@@ -12,7 +12,7 @@ make graphs in grafana.
 
 ### Dependencies
 
-* In my setup I use Ubuntu server 20.04
+* Setup uses Ubuntu server 20.04
 * Grafana (apt install grafana)
 * InfluxDB (apt install influxdb)
 * Influx-client (apt install influx-client)
