@@ -42,7 +42,7 @@ command to run if program contains helper info
 
 Contributors names and contact info
 
-Foxmaster  
+[Foxmaster](pemi@clavister.com)  
 
 ## Version History
 
