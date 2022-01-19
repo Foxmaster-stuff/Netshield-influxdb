@@ -20,7 +20,7 @@ make graphs in grafana.
 ### Installing
 
 * The file NetshieldIP.txt is where the script reads IP,USER,SNMPv3-PW,USER-PW,
-* Example
+Example
 ```
 192.168.105.3,apa,apa123456789,dt12576!,
 ```
