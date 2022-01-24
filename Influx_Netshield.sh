@@ -3,7 +3,7 @@
 IPList=/usr/local/bin/Netshield/NetshieldIP.txt    #TextFile containing IP's to poll
 
 #count rows in iplist
-rows=$(wc -l NetshieldIP.txt |awk '{print $1}')
+rows=$(wc -l /usr/local/bin/Netshield/NetshieldIP.txt |awk '{print $1}')
 
 #Fetch the IP and SNMPv3 credentials to a ARRAY
 nr=1
