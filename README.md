@@ -16,6 +16,7 @@ make graphs in grafana.
 * Grafana (apt install grafana)
 * InfluxDB (apt install influxdb)
 * Influx-client (apt install influx-client)
+* SNMP (apt install snmp)
 
 ### Installing
 
@@ -25,7 +26,10 @@ Example
 ```
 192.168.105.3,apa,apa123456789,dt12576!,
 ```
-* Any modifications needed to be made to files/folders
+* sudo systemctl enable influxdb
+* sudo systemctl status influxdb
+* sudo systemctl enable grafana-server.service
+* sudo systemctl status grafana-server
 
 ### Executing program
 
