@@ -55,6 +55,10 @@ Contributors names and contact info
 
 ## Version History
 
+* 0.3
+    * Added databases to take advantage of Grafanas variable function
+    * Databases will be prefixed with the IP of the target
+    * There are now 4 influx databases IP_sys, IP_Ifs, IP_stats and IP_rules 
 * 0.2
     * Various bug fixes and optimizations
     * See [commit change]() or See [release history]()
