@@ -12,11 +12,12 @@ make graphs in grafana.
 
 ### Dependencies
 
-* Setup uses Ubuntu server 20.04
+* Setup uses Ubuntu server
 * Grafana (apt install grafana)
 * InfluxDB (apt install influxdb)
 * Influx-client (apt install influx-client)
 * SNMP (apt install snmp)
+* Parallel (apt install parallel)
 
 ### Installing
 
@@ -37,7 +38,7 @@ Example
 * Step-by-step bullets
 Polls the network device every 5 min
 ```
-*/5 * * * *     /usr/local/bin/Netshield/Influx_Netshield.sh > /dev/null 2>&1
+*/5 * * * *     /usr/local/bin/Netshield/Main.sh > /dev/null 2>&1
 ```
 
 ## Help
@@ -54,7 +55,9 @@ Contributors names and contact info
 [Foxmaster](pemi@clavister.com)  
 
 ## Version History
-
+* 0.4
+    * Added Main.sh that uses parallel to spawn 1 process per line item in NetshieldIP.txt
+      and 1 process per CPU core available (can be limited by using --job <number>)
 * 0.3
     * Added databases to take advantage of Grafanas variable function
     * Databases will be prefixed with the IP of the target
