@@ -34,8 +34,8 @@ Example
 
 ### Executing program
 
+* Script needs to be deployed in /usr/local/bin/Netshield/
 * This script uses crontab to execute the script
-* Step-by-step bullets
 Polls the network device every 5 min
 ```
 */5 * * * *     /usr/local/bin/Netshield/Main.sh > /dev/null 2>&1
