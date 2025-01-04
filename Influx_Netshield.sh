@@ -8,7 +8,7 @@ rows=$(wc -l /usr/local/bin/Netshield/NetshieldIP.txt |awk '{print $1}')
 #Fetch the IP and SNMPv3 credentials to a ARRAY
 nr=1
 while [ $nr -le $rows ]
-do
+do 
 
 y=$(sed -n $nr\p < $IPList;)
 IFS=',' read -r -a array <<< $y
