@@ -53,10 +53,10 @@ DB_Rules="$DB"_Rules
 	Ifs_packet_rec_A=($(echo $Ifs_packet_rec | tr '"' '\n'))
 	nr4=${#Ifs_packet_rec_A[@]}
 	Ifs_packet_sent=$(snmpwalk -v3 -l authPriv -u $USER -a SHA1 -A $PW -x AES -X $PW2 $IP .1.3.6.1.4.1.5089.3.2.2010.3010.1.1059 | awk '{print $4}')
-        Ifs_packet_rsent_A=($(echo $Ifs_packet_rec | tr '"' '\n'))
+        Ifs_packet_sent_A=($(echo $Ifs_packet_sent | tr '"' '\n'))
         nr5=${#Ifs_packet_sent_A[@]}
 	Ifs_packet_dropped=$(snmpwalk -v3 -l authPriv -u $USER -a SHA1 -A $PW -x AES -X $PW2 $IP .1.3.6.1.4.1.5089.3.2.2010.3010.1.1056 | awk '{print $4}')
-        Ifs_packet_dropped_A=($(echo $Ifs_packet_rec | tr '"' '\n'))
+        Ifs_packet_dropped_A=($(echo $Ifs_packet_dropped | tr '"' '\n'))
         nr6=${#Ifs_packet_dropped_A[@]}
 
 	for (( i=0; i<$nr4; i++ ))
