@@ -74,6 +74,10 @@ Contributors names and contact info
 
 This project is licensed under the BSD License - see the LICENSE.md file for details
 
+## Recommended plugins
+
+* [Grafana Reporter](https://github.com/mahendrapaipuri/grafana-dashboard-reporter-app)
+
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
