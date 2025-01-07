@@ -7,7 +7,7 @@ Graph SNMPv3 values from Clavister Netshield
 This script uses crontab to set the polling intervall of the Netshield devices,
 it will take the values and store them in InfluxDB. The values can then be used to 
 make graphs in grafana.
-Example dashboard (https://github.com/Foxmaster-stuff/Netshield-influxdb/blob/master/Example_Dashboard_Report.pdf) generated with grafana reporter.
+Example dashboard [Report](https://github.com/Foxmaster-stuff/Netshield-influxdb/blob/master/Example_Dashboard_Report.pdf) generated with grafana reporter.
 
 ## Getting Started
 
