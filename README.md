@@ -13,13 +13,13 @@ make graphs in grafana.
 ### Dependencies
 
 * Setup uses Ubuntu server
-* Grafana (for ploting the values)
+* Grafana 11.2.2 (for ploting the values)
 * InfluxDB (influxdb database)
-* Influx-client (influx-client for manual editing of influxdb)
+* Influxdb-client (influx-client for manual editing of influxdb)
 * SNMP (snmp for retriving the values)
 * bc (bc for calculating the througput)
 * Parallel (for "multithreading")
-* apt install Grafana influxdb influx-client snmp bc parallel -y
+* apt install grafana=11.2.2 influxdb influxdb-client snmp bc parallel -y
 
 ### Installing
 
